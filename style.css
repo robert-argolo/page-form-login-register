@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Poppins&family=Raleway:wght@700&display=swap');
+/* @import url("./responsive.css"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.card {
+  width: 399px;
+  height: 395px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__title {
+  margin-bottom: 7px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.card__description {
+  margin-bottom: 26px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #636363;
+}
+
+.card__group-btn {
+  width: 320px;
+  height: 52px;
+
+  margin-bottom: 31px;
+
+  display: flex;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.group-btn__link {
+  text-decoration: none;
+}
+
+.group-btn__email {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 153px;
+  height: 52px;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+  border-radius: 8px 0px 0px 8px;
+
+  font-size: 18px;
+  line-height: 23px;
+
+  background-color: #6a00bf;
+  color: #ffffff;
+}
+
+.group-btn__email--white {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 153px;
+  height: 52px;
+
+  border: 1px solid black;
+  border-right: 0px;
+  border-radius: 8px 0px 0px 8px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  color: black;
+}
+
+.group-btn__phone {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 167px;
+  height: 52px;
+
+  border: 1px solid black;
+  border-left: 0px;
+  border-radius: 0px 8px 8px 0px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.group-btn__phone--purple {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 167px;
+  height: 52px;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  background-color: #6a00bf;
+  border-radius: 0px 8px 8px 0px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.card__form-login,
+.card__form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login__input,
+.form-register__input {
+  width: 339px;
+  height: 55px;
+
+  padding-left: 16px;
+  
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  
+  border: 1px solid #818181;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+  border-radius: 12px;
+  color: #6f6f6f;
+}
+
+.email--margin {
+  margin-bottom: 13px;
+}
+.password--margin {
+  margin-bottom: 6px;
+}
+
+.form-login__password {
+  width: 339px;
+  text-align: end;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #4285f4;
+}
+
+.form-login__btn-login,
+.form-register__btn-send {
+  width: 339px;
+  height: 55px;
+
+  margin-top: 30px;
+
+  border-radius: 12px;
+  
+  font-family: "Outfit" ,sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  
+  background-color: #190152;
+  color: #ffffff;
+
+}
+
+.phone--margin {
+  margin-top: 49px;
+}
