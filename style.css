@@ -181,6 +181,8 @@
   line-height: 18px;
 
   color: #4285f4;
+
+  cursor: pointer;
 }
 
 .form-login__btn-login,
@@ -200,6 +202,7 @@
   background-color: #190152;
   color: #ffffff;
 
+  cursor: pointer;
 }
 
 .phone--margin {
